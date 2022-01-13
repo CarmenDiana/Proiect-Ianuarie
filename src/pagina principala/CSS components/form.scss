@@ -1,0 +1,32 @@
+.form {
+    margin-bottom: 3em;
+
+    h2 {
+        margin: 3em 0 1em;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+            border: 2px solid rgba(255, 194, 197, 0.73);
+            border-radius: 5px;
+            width: 60%;
+            padding: 1em .2em;
+            margin-bottom: 1em;
+
+
+        }
+
+        textarea {
+            border: 1px solid black;
+            width: 60%;
+            padding: 2em .2em;
+            margin-bottom: 1em;
+        }
+    }
+}

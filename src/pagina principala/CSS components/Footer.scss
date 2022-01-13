@@ -1,0 +1,28 @@
+.footer {
+  margin-top: 2em;
+  padding: 2em 0;
+  background-color: dimgrey;
+
+  .footerContinut {
+    text-align: center;
+    
+    h2 {
+      margin: .5em 0 1.5em;
+      color: #fff;
+    }
+
+    .footerDate {
+      a {
+        color: #fff;
+        text-decoration: underline;
+        display: block;
+      }
+    }
+
+    span {
+      display: block;
+      padding-top: 2em;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.sectiuneHeader {
+  background: linear-gradient(to right, #9c27b0, #8ecdff);
+  
+  
+  nav {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+      height: 100px;
+      width: 200px;
+    }
+
+    .nav-links {
+      ul {
+        display: flex;
+      }
+      
+      a {
+        display: block;
+        padding-bottom: 10px;
+        color: white;
+        padding-right: 1em;
+      }
+    }
+  }
+}
